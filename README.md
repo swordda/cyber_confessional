@@ -1,0 +1,2 @@
+# cyber_confessional
+基于fastapi框架的一个html页面，采用mysql数据库
