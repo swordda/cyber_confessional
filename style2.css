@@ -1,0 +1,167 @@
+body {
+  background-color: black;
+  /* 设置背景颜色 */
+  background-image: url('./img/cat.jpg');
+  /* 设置背景图片 */
+  background-size: 30%;
+}
+
+#titles {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px yellow;
+  /* 设置标题阴影 */
+  margin-top: 50px;
+  /* 设置标题上边距 */
+}
+
+#input {
+  width: 80%;
+  height: 230px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #ccc;
+  /* 设置输入框边框 */
+  border-radius: 10px;
+  /* 设置输入框圆角 */
+  padding: 10px;
+  /* 设置输入框内边距 */
+  font-size: 18px;
+}
+
+#title {
+  width: 80%;
+  height: 50px;
+  display: block;
+  border: 2px solid #ccc;
+  /* 设置输入框边框 */
+  border-radius: 10px;
+  /* 设置输入框圆角 */
+  padding: 10px;
+  /* 设置输入框内边距 */
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact {
+  width: 80%;
+  height: 30px;
+  display: block;
+  border: 2px solid #ccc;
+  /* 设置输入框边框 */
+  border-radius: 10px;
+  /* 设置输入框圆角 */
+  padding: 10px;
+  /* 设置输入框内边距 */
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit {
+  display: block;
+  margin: 20px auto 50px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  /* 设置提交按钮背景颜色 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#woodfish {
+  width: auto;
+}
+
+#submit:hover {
+  background-color: #2E8B57;
+  /* 设置提交按钮悬停背景颜色 */
+}
+
+#yu {
+  width: 200px;
+  height: 164px;
+  z-index: 2;
+  border: 0px;
+  background-color: rgb(84 0 0 / 0%);
+  /*background-image: url(./img/yuu.png);
+  background-position: center;
+  background-size: 200px 164px;*/
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 2s
+}
+
+.app {
+  position: absolute;
+  right: 50px;
+  width: 600px;
+  height: 164px;
+  border: 0px;
+}
+
+#yu_pic {
+  margin-left: 15px;
+  background-position: center;
+  margin: 0px;
+  border: 0px;
+  display: block;
+}
+
+.click {
+  margin-left: 15px;
+  width: 200px;
+  height: 164px;
+  border: 0px;
+}
+
+#gdz {
+  width: 800px;
+  padding-top: 20px;
+  padding-left: -20px;
+  margin-right: 0px;
+  font-size: 50px;
+  color: white;
+}
+
+#text_tips {
+  font-size: 20px;
+  color: white;
+}
+
+#text_tips_ {
+  font-size: 20px;
+  color: white;
+}
+
+#back {
+  height: 250px;
+  width: 260px;
+  background-color: black;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+#choose {
+  background-color: white;
+  width: 50%;
+  height: 30px;
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+}

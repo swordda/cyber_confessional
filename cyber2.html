@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="./img/title.png" type="image/x-icon">
+  <title>赛博忏悔室</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.41/vue.global.js"></script>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="titles">
+    <span style="color: rgba(199, 0, 0, 0.336)">赛</span>
+    <span style="color: orangered;border-bottom: 100px;">博</span>
+    <span style="color: yellow">忏</span>
+    <span style="color: orange;padding-top: 30px;">悔</span>
+    <span style="color: yellowgreen">室</span>
+  </div>
+  <form>
+    <textarea id="title" placeholder="忏悔的主题"></textarea>
+    <textarea id="input"
+      placeholder="在这里忏悔你所做下的恶行吧，只要你诚心悔过，地球猫猫教及飞天意面神教的意志会给予你公正的审判&#10;什么都可以写（除了SQL注入）&#10;最好别用到英语，不然可能报错"></textarea>
+    <textarea id="contact" placeholder="如果想收到版主的回复可以在这里留下联系方式，版主可能会回复你"></textarea>
+    <div id="choose">
+      你要向哪个意志忏悔?
+      <input id="if_share" type="radio" value="False" name="share">
+      地球猫猫教
+      <input id="if_share" type="radio" value="True" name="share">
+      飞天意面神教
+    </div>
+    <input type="button" value="提交" id="submit">
+  </form>
+  <div class="app" data="default">
+    <div id="back">
+      <div class="click" @click="yuClick">
+        <img id="yu_pic" src="./img/yuu.png" style="width :200px;height: auto;">
+      </div>
+      <span id="gdz">功德值：{{ num }}</span>
+    </div>
+  </div>
+</body>
+<script src="wd.js"></script>
+<script src="jas.js"></script>
+
+</html>
